@@ -1,0 +1,65 @@
+/* General page styles */
+body {
+    background-color: #000; /* color de fondo de la página a negro */
+    color: #fff; /* color texto */
+    font-family: Arial, sans-serif; /* fuente */
+    display: flex; /* Utiliza flexbox para la disposición de los elementos del body */
+    justify-content: center; /* para centrarr los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 100vh; /* Establece la altura del body al 100% de la altura de la ventana del navegador */
+    margin: 0; /* Elimino el margen predeterminado del body */
+}
+
+/* Form styles */
+form {
+    background-color: #333; /* Es el color de fondo del formulario gris */
+    padding: 8%; /* relleno de 8% al formulario */
+    border-radius: 5px; /* Redondea los bordes del formulario con un radio de 5 píxeles */
+    box-shadow: 0 0 10px rgba(86, 54, 182, 0.5); /* Añade una sombra alrededor del formulario */
+    width: 20%; /* Establece el ancho del formulario */
+    text-align: center; /* Centra el texto dentro del formulario */
+}
+
+h1 {
+    margin-bottom: 5%; /* Agrego un margen inferior al encabezado */
+    font-size: 24px; /* Establece el tamaño de fuente del encabezado, titulo */
+}
+
+label {
+    display: block; /* Hace que cada etiqueta sea un bloque (ocupa toda la línea) */
+    text-align: left; /* Alinea el texto de las etiquetas a la izquierda */
+    margin-bottom: 1%; /* Añade un margen inferior de 5 píxeles a cada etiqueta */
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="date"], 
+select {
+    width: 98%; /* Establece el ancho al 95% del contenedor */
+    padding: 1%; /* Añade un relleno interno del 1% */
+    margin-bottom: 5%; /* Añade un margen inferior del 5% */
+    border: none; /* Elimina los bordes predeterminados */
+    border-radius: 3px; /* Redondea los bordes de estos elementos con un radio de 3 píxeles */
+}
+
+
+input[type="submit"], 
+input[type="button"] {
+    background-color: #ff0; /* color de fondo de los botones  */
+    border: none; /* Elimina los bordes predeterminados */
+    padding: 2% 5%; /* Añade un relleno interno del 2% verticalmente y 5% horizontalmente */
+    margin-top: 5%; /* Añade un margen superior del 5% */
+    cursor: pointer; /* Cambia el cursor a un puntero al pasar sobre los botones(no pedido) */
+    font-size: 16px; /* Establece el tamaño de fuente de los botones a 16 píxeles */
+    border-radius: 3px; /* Redondea los bordes de los botones con un radio de 3 píxeles */
+}
+
+input[type="button"] {
+    display: block; /* Hace que el botón sea un bloque (ocupa toda la línea) */
+    margin: 5% auto; /* Centra el botón horizontalmente con un margen superior e inferior del 5% */
+}
+
+/* High contrast button styles */
+input[type="button"]:nth-child(2) {
+    margin-top: 5%; /* Añade un margen superior del 5% al segundo botón de tipo "button" */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+    <link rel="stylesheet" href="estilotres.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <form>
+        <h1>Formulario de Datos Personales</h1>
+        <label>Nombre:</label>
+        <input type="text" name="nombres"><br>
+        <label>Apellido:</label>
+        <input type="text" name="apellido" required><br>
+        <label>Email:</label>
+        <input type="email" name="email"><br>
+        <label>Fecha de nacimiento:</label>
+        <input type="date" name="fecha_nacimiento"><br>
+        <label>País de residencia:</label>
+        <select name="pais">
+            <option value="argentina">Argentina</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="chile">Chile</option>
+        </select><br><br>
+        <input type="submit" value="Enviar"><br>
+        <input type="button" value="Estilo 1">
+        <input type="button" value="Estilo de Alto Contraste">
+    </form>
+</body>
+</html>
